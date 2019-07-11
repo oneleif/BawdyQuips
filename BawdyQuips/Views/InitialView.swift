@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  InitialView.swift
 //  BawdyQuips
 //
 //  Created by Zach Eriksen on 7/10/19.
@@ -8,17 +8,16 @@
 
 import SwiftUI
 
-struct ContentView : View {
-    
+struct InitialView : View {
     var body: some View {
-        InitialView()
+        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct InitialView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        InitialView()
     }
 }
 #endif

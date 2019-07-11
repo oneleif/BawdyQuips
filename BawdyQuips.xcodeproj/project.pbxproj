@@ -13,6 +13,15 @@
 		29DF7B4122D6912F00E2403D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29DF7B4022D6912F00E2403D /* Assets.xcassets */; };
 		29DF7B4422D6912F00E2403D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29DF7B4322D6912F00E2403D /* Preview Assets.xcassets */; };
 		29DF7B4722D6912F00E2403D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29DF7B4522D6912F00E2403D /* LaunchScreen.storyboard */; };
+		29DF7B4F22D6CB1E00E2403D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7B4E22D6CB1E00E2403D /* APIService.swift */; };
+		29DF7DF122D6D28300E2403D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7DF022D6D28300E2403D /* User.swift */; };
+		29DF7DF322D6D2DA00E2403D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7DF222D6D2DA00E2403D /* Card.swift */; };
+		29DF7DF522D6D8C000E2403D /* SuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7DF422D6D8C000E2403D /* SuperView.swift */; };
+		29DF7DFB22D6D9BF00E2403D /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7DFA22D6D9BF00E2403D /* InitialView.swift */; };
+		29DF7DFD22D6D9C900E2403D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7DFC22D6D9C900E2403D /* LoginView.swift */; };
+		29DF7DFF22D6D9D100E2403D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7DFE22D6D9D100E2403D /* RegisterView.swift */; };
+		29DF7E0122D6D9D900E2403D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7E0022D6D9D900E2403D /* HomeView.swift */; };
+		29DF7E0522D6DBF300E2403D /* UsernamePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7E0422D6DBF300E2403D /* UsernamePasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		29DF7B4322D6912F00E2403D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		29DF7B4622D6912F00E2403D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29DF7B4822D6912F00E2403D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DF7B4E22D6CB1E00E2403D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		29DF7DF022D6D28300E2403D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		29DF7DF222D6D2DA00E2403D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		29DF7DF422D6D8C000E2403D /* SuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperView.swift; sourceTree = "<group>"; };
+		29DF7DFA22D6D9BF00E2403D /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		29DF7DFC22D6D9C900E2403D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		29DF7DFE22D6D9D100E2403D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		29DF7E0022D6D9D900E2403D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		29DF7E0422D6DBF300E2403D /* UsernamePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernamePasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +74,11 @@
 		29DF7B3922D6912C00E2403D /* BawdyQuips */ = {
 			isa = PBXGroup;
 			children = (
-				29DF7B3A22D6912C00E2403D /* AppDelegate.swift */,
-				29DF7B3C22D6912C00E2403D /* SceneDelegate.swift */,
+				29DF7DF822D6D98A00E2403D /* Views */,
+				29DF7DF722D6D97F00E2403D /* Services */,
+				29DF7DF622D6D97200E2403D /* Models */,
+				29DF7DF922D6D9A200E2403D /* Delegate */,
+				29DF7DF422D6D8C000E2403D /* SuperView.swift */,
 				29DF7B3E22D6912C00E2403D /* ContentView.swift */,
 				29DF7B4022D6912F00E2403D /* Assets.xcassets */,
 				29DF7B4522D6912F00E2403D /* LaunchScreen.storyboard */,
@@ -73,6 +94,52 @@
 				29DF7B4322D6912F00E2403D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29DF7DF622D6D97200E2403D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29DF7DF022D6D28300E2403D /* User.swift */,
+				29DF7DF222D6D2DA00E2403D /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29DF7DF722D6D97F00E2403D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				29DF7B4E22D6CB1E00E2403D /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		29DF7DF822D6D98A00E2403D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29DF7E0322D6DBD900E2403D /* UsernamePasswordView */,
+				29DF7DFA22D6D9BF00E2403D /* InitialView.swift */,
+				29DF7DFC22D6D9C900E2403D /* LoginView.swift */,
+				29DF7DFE22D6D9D100E2403D /* RegisterView.swift */,
+				29DF7E0022D6D9D900E2403D /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29DF7DF922D6D9A200E2403D /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				29DF7B3A22D6912C00E2403D /* AppDelegate.swift */,
+				29DF7B3C22D6912C00E2403D /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		29DF7E0322D6DBD900E2403D /* UsernamePasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				29DF7E0422D6DBF300E2403D /* UsernamePasswordView.swift */,
+			);
+			path = UsernamePasswordView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +214,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				29DF7B3B22D6912C00E2403D /* AppDelegate.swift in Sources */,
+				29DF7DFF22D6D9D100E2403D /* RegisterView.swift in Sources */,
+				29DF7DFB22D6D9BF00E2403D /* InitialView.swift in Sources */,
+				29DF7DF322D6D2DA00E2403D /* Card.swift in Sources */,
+				29DF7DFD22D6D9C900E2403D /* LoginView.swift in Sources */,
+				29DF7E0122D6D9D900E2403D /* HomeView.swift in Sources */,
 				29DF7B3D22D6912C00E2403D /* SceneDelegate.swift in Sources */,
+				29DF7E0522D6DBF300E2403D /* UsernamePasswordView.swift in Sources */,
+				29DF7DF522D6D8C000E2403D /* SuperView.swift in Sources */,
+				29DF7B4F22D6CB1E00E2403D /* APIService.swift in Sources */,
+				29DF7DF122D6D28300E2403D /* User.swift in Sources */,
 				29DF7B3F22D6912C00E2403D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
