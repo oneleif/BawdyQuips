@@ -18,6 +18,8 @@ struct RegisterView : View {
             Spacer()
             Button(action: {
                 print("Register")
+                let registerData = LoginPostData(username: self.username, password: self.password)
+                API.shared.handleRegister(registerData: registerData)
             }) {
                 Text("Register")
             }

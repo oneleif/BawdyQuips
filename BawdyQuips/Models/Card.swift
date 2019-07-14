@@ -8,7 +8,11 @@
 
 import Foundation
 
-struct Card: Codable {
+struct Card: Codable, Equatable {
+    static func == (lhs: Card, rhs: Card) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
     var id: Int?
     var description: String
     var numberOfBlanks: Int?

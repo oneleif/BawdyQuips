@@ -13,17 +13,25 @@ struct UsernamePasswordView : View {
     @Binding var password: String
     
     var body: some View {
-        VStack {
-            Text("Username")
-            TextField("jdoe", text: $username)
-                .textFieldStyle(.roundedBorder)
-            Text("Password")
-            SecureField("Password", text: $password)
-                .textFieldStyle(.roundedBorder)
+        VStack(spacing: 32) {
+            VStack(alignment: .leading) {
+                Text("Username")
+                    .font(.title)
+                TextField("jdoe", text: $username)
+                    .textFieldStyle(.roundedBorder)
+            }
+            
+            VStack(alignment: .leading) {
+                Text("Password")
+                    .font(.title)
+                SecureField("Password", text: $password)
+                    .textFieldStyle(.roundedBorder)
+            }
+            
         }
         .padding()
-        .background(Color.blue)
-        .cornerRadius(8)
+//        .background(Color.blue)
+//        .cornerRadius(8)
     }
 }
 //

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291AF57422DBDD87009DB0BE /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291AF57322DBDD87009DB0BE /* Room.swift */; };
+		291AF57622DBDDDA009DB0BE /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291AF57522DBDDDA009DB0BE /* CardDeck.swift */; };
+		291AF57822DBDF2E009DB0BE /* LobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291AF57722DBDF2E009DB0BE /* LobbyView.swift */; };
+		291AF57A22DBE376009DB0BE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291AF57922DBE376009DB0BE /* GameView.swift */; };
+		291AF57C22DBEB49009DB0BE /* CardSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291AF57B22DBEB49009DB0BE /* CardSelectionView.swift */; };
+		291AF57E22DBEE70009DB0BE /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291AF57D22DBEE70009DB0BE /* ScoreboardView.swift */; };
 		29DF7B3B22D6912C00E2403D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7B3A22D6912C00E2403D /* AppDelegate.swift */; };
 		29DF7B3D22D6912C00E2403D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7B3C22D6912C00E2403D /* SceneDelegate.swift */; };
 		29DF7B3F22D6912C00E2403D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7B3E22D6912C00E2403D /* ContentView.swift */; };
@@ -18,13 +24,18 @@
 		29DF7DF322D6D2DA00E2403D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7DF222D6D2DA00E2403D /* Card.swift */; };
 		29DF7DF522D6D8C000E2403D /* SuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7DF422D6D8C000E2403D /* SuperView.swift */; };
 		29DF7DFB22D6D9BF00E2403D /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7DFA22D6D9BF00E2403D /* InitialView.swift */; };
-		29DF7DFD22D6D9C900E2403D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7DFC22D6D9C900E2403D /* LoginView.swift */; };
 		29DF7DFF22D6D9D100E2403D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7DFE22D6D9D100E2403D /* RegisterView.swift */; };
 		29DF7E0122D6D9D900E2403D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7E0022D6D9D900E2403D /* HomeView.swift */; };
 		29DF7E0522D6DBF300E2403D /* UsernamePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DF7E0422D6DBF300E2403D /* UsernamePasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291AF57322DBDD87009DB0BE /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		291AF57522DBDDDA009DB0BE /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
+		291AF57722DBDF2E009DB0BE /* LobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyView.swift; sourceTree = "<group>"; };
+		291AF57922DBE376009DB0BE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		291AF57B22DBEB49009DB0BE /* CardSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionView.swift; sourceTree = "<group>"; };
+		291AF57D22DBEE70009DB0BE /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
 		29DF7B3722D6912C00E2403D /* BawdyQuips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BawdyQuips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29DF7B3A22D6912C00E2403D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29DF7B3C22D6912C00E2403D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +49,6 @@
 		29DF7DF222D6D2DA00E2403D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		29DF7DF422D6D8C000E2403D /* SuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperView.swift; sourceTree = "<group>"; };
 		29DF7DFA22D6D9BF00E2403D /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
-		29DF7DFC22D6D9C900E2403D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		29DF7DFE22D6D9D100E2403D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		29DF7E0022D6D9D900E2403D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		29DF7E0422D6DBF300E2403D /* UsernamePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernamePasswordView.swift; sourceTree = "<group>"; };
@@ -101,6 +111,8 @@
 			children = (
 				29DF7DF022D6D28300E2403D /* User.swift */,
 				29DF7DF222D6D2DA00E2403D /* Card.swift */,
+				291AF57322DBDD87009DB0BE /* Room.swift */,
+				291AF57522DBDDDA009DB0BE /* CardDeck.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -118,9 +130,12 @@
 			children = (
 				29DF7E0322D6DBD900E2403D /* UsernamePasswordView */,
 				29DF7DFA22D6D9BF00E2403D /* InitialView.swift */,
-				29DF7DFC22D6D9C900E2403D /* LoginView.swift */,
 				29DF7DFE22D6D9D100E2403D /* RegisterView.swift */,
 				29DF7E0022D6D9D900E2403D /* HomeView.swift */,
+				291AF57722DBDF2E009DB0BE /* LobbyView.swift */,
+				291AF57922DBE376009DB0BE /* GameView.swift */,
+				291AF57B22DBEB49009DB0BE /* CardSelectionView.swift */,
+				291AF57D22DBEE70009DB0BE /* ScoreboardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,14 +230,19 @@
 			files = (
 				29DF7B3B22D6912C00E2403D /* AppDelegate.swift in Sources */,
 				29DF7DFF22D6D9D100E2403D /* RegisterView.swift in Sources */,
+				291AF57422DBDD87009DB0BE /* Room.swift in Sources */,
 				29DF7DFB22D6D9BF00E2403D /* InitialView.swift in Sources */,
+				291AF57E22DBEE70009DB0BE /* ScoreboardView.swift in Sources */,
+				291AF57A22DBE376009DB0BE /* GameView.swift in Sources */,
 				29DF7DF322D6D2DA00E2403D /* Card.swift in Sources */,
-				29DF7DFD22D6D9C900E2403D /* LoginView.swift in Sources */,
+				291AF57822DBDF2E009DB0BE /* LobbyView.swift in Sources */,
 				29DF7E0122D6D9D900E2403D /* HomeView.swift in Sources */,
 				29DF7B3D22D6912C00E2403D /* SceneDelegate.swift in Sources */,
 				29DF7E0522D6DBF300E2403D /* UsernamePasswordView.swift in Sources */,
 				29DF7DF522D6D8C000E2403D /* SuperView.swift in Sources */,
+				291AF57622DBDDDA009DB0BE /* CardDeck.swift in Sources */,
 				29DF7B4F22D6CB1E00E2403D /* APIService.swift in Sources */,
+				291AF57C22DBEB49009DB0BE /* CardSelectionView.swift in Sources */,
 				29DF7DF122D6D28300E2403D /* User.swift in Sources */,
 				29DF7B3F22D6912C00E2403D /* ContentView.swift in Sources */,
 			);

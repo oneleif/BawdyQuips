@@ -17,14 +17,17 @@ struct SuperView : View {
                     NavigationLink(destination: InitialView()) {
                         Text("InitialView")
                     }
-                    NavigationLink(destination: LoginView()) {
-                        Text("LoginView")
-                    }
                     NavigationLink(destination: RegisterView()) {
                         Text("RegisterView")
                     }
                     NavigationLink(destination: HomeView()) {
                         Text("HomeView")
+                    }
+                    NavigationLink(destination: LobbyView()) {
+                        Text("LobbyView")
+                    }
+                    NavigationLink(destination: GameView()) {
+                        Text("GameView")
                     }
                 }
             }

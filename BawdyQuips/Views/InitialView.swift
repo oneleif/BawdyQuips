@@ -9,8 +9,27 @@
 import SwiftUI
 
 struct InitialView : View {
+    @State private var username: String = ""
+    @State private var password: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            UsernamePasswordView(username: $username, password: $password)
+            Spacer()
+            HStack(alignment: .center, spacing: 32) {
+                PresentationLink(destination: RegisterView()) {
+                    Text("Register")
+                }
+                Button(action: {
+                    print("Login")
+                    let loginData = LoginPostData(username: self.username, password: self.password)
+                    API.shared.handleLogin(loginData: loginData)
+                }) {
+                    Text("Login")
+                }
+            }
+        }
+        .padding()
     }
 }
 
